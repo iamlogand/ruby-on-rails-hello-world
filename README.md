@@ -22,4 +22,4 @@ My first Ruby on Rails app and first exposure to Ruby, made using https://guides
   - After making changes, such as adding validation (e.g. the presence validation at app/models/product.rb), the console needs to be reloaded like this: `reload!`
   - Saving a record only works if validation passes. Validate and see a list of errors like this: `product.errors`
   - For a more detailed validation error, use: `product.errors.full_messages`
-
+- Create a controller with an index view for the Products model with `bin/rails generate controller Products index --skip-routes`
