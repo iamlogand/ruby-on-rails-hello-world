@@ -10,6 +10,8 @@ Rails has some similar patterns to Django but things have different names, for e
 
 Perhaps the strangest thing with Rails is that model and field definitions are nowhere to be seen in the code. It looks like you have to check the database via the Rails console to find out what fields your models have; or, you can look through the migration scripts to work out what was added and removed. The reason for this pattern is to reduce boilerplate, which is apparently central to the Rails philosophy of Convention over configuration.
 
+Ruby doesn't have an admin console. Coming from Django, it's difficult to imagine developing a serious web application without an admin console.
+
 ### Main commands learned
 
 - Create a new app called "store" with `rails new store`
